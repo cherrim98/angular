@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <title>Angular Demo</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<center><img src = "http://orig06.deviantart.net/5d4b/f/2015/288/7/8/785af3388e42960dabb4a68ee4019757-d9d8xmq.png"></center>
+  <form>
+    Male Main Character: <input ng-model="maleMainCharacter" placeholder="Male Main Character"></input> <br />
+    Female Main Character: <input ng-model="femaleMainCharacter" placeholder="Female Main Character"></input> <br />
+    Name of Place: <input ng-model="place" placeholder="Place Name"></input> <br />
+    Animal: <input ng-model="animal" placeholder="Animal Name"></input> <br />
+    Object: <input ng-model="object" placeholder="Object Name"></input> <br />
+    Body Part: <input ng-model="bodypart" placeholder="Body Part Name"></input> <br />
+    2nd Object: <input ng-model="object2" placeholder="2nd Object Name"></input> <br />
+  </form>
+
+  <h3>When {{ maleMainCharacter }} Met {{ femaleMainCharacter }}</h3>
+  <p>One day {{ maleMainCharacter }} was walking around {{ place }}, <br>and encountered a(n) {{ animal }}. The {{ animal }} had a(n) {{ object }}<br /> in its {{ bodypart }}. When {{ maleMainCharacter }} looked away, he relized the {{ animal }} was gone. He looked back to find a girl right behind him. "Who are you?" she asks. {{ maleMainCharacter }} said, "My name is {{ maleMainCharacter }}. What about you?" The girl said, "My name is {{ femaleMainCharacter }}. Why are you in the {{ place }}! You aren't supposed to be here!" The boy stated in shock, "I don't know... I just fell down here! I promise!" The girl said, "Really? Are you sure you didn't see a(n) {{ object2 }} anywhere?" {{ maleMainCharacter }} said, "Why would I even need that? {{ femaleMainCharacter }} said, "Alright, I believe you." Then the boy said "What is this place?" The girl said "Hmmm... Come with me, and I'l tell you."</p>
+
+</body>
+</html>
